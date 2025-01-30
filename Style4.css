@@ -1,0 +1,127 @@
+body
+{
+font-family: lucida grande
+,tahoma,verdana,arial,sans-serif;
+}
+body p
+{
+font-size: 0.8em;
+line-height: 1.28;
+}
+html{
+background-color: rgb(191,206,225);
+height: 100vh;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#wrapper
+{
+width: 1080px;
+margin: 0 auto;
+padding: 7px;
+}
+#banner
+{
+background-image:url(Localattraction.png);
+height: 1080px;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-size: cover;
+}
+a:link{
+color: white;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+background-color: lightgrey;
+}
+.active {
+background-color: lightgrey;
+}
+.centered-row {
+display: flex;
+position: absolute;
+top: 3%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-shadow: 0px 3px 6px black;
+}
+.left-row {
+display: flex;
+justify-content: left;
+padding: 20px;
+vertical-align: text-bottom;
+text-shadow: 0 3px 6px black;
+}
+.right-row {
+display: flex;
+justify-content: flex-end;
+padding: 20px;
+}
+.login{
+position: absolute;
+top: 23px;
+right: 40px;
+text-shadow: 0px 3px 6px black;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li {
+float: left;
+}
+.centered-row-content
+{
+margin:30px;
+display:flex;
+flex-direction:row;
+width:1000px;
+height:80px;
+padding:5px;
+position: absolute;
+top: 33%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.centered-row-content > div
+{
+flex:1 1 auto;
+text-align:center;
+margin:50px;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: grey;
+color: white;
+opacity: 75%;
+height: 15%;
+text-shadow: 0 3px 6px black;
+padding-bottom: 20px;
+}
+.banner
+{
+background-image: url("Localattraction.png");
+background-repeat: repeat-x;
+height: 415px;
+opacity:0.5;
+}

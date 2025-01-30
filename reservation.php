@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservation page</title>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible"
+              content="IE=edge">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1">
+        <link type="text/css" rel="stylesheet"
+              href="reservationpage.css" />
+    </head>
+<body>
+<header>
+    <div>
+        <div class="left-row">
+            <ul>
+                <li><img src="pythonLogo1.png"
+                         width="50" height="50" alt="PYTHON"></li>
+                <li>
+                    <p
+                        style="color:white;"><b>PYTHON
+                            RESORTS&trade;</b></p>
+                </li>
+            </ul>
+        </div>
+        <div class="centered-row">
+            <ul>
+                <li><a href="index.html"> HOME
+                    </a></li>
+                <li><a href="aboutUs.html">
+                        ABOUT US </a></li>
+                <li class="active"><a
+                        href="Reservationpage.html"> BOOKING </a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+</div>
+<div class="banner">
+    <p class="banner-title">Our Rooms</p>
+    <br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<div>
+    <section class="centered-content">
+        <div class="grid">
+            <div class="row-grid">
+                <div>
+                    <img style="padding-bottom:
+10px" src="1.jpg" width="400"
+                         height="300" alt="John
+Smith"> <br>
+                </div>
+            </div>
+            <div class="row-grid-2">
+                <div>
+                    <p><span style="font-size:
+23"><b>Twin Room</b><br><br></span>
+                        While being the
+                        smallest room, our Twin Room still big on features.
+                        All light fixtures include
+                        Smart Bulbs that allow users to turn them on
+                        and off, change the color,
+                        or even set color patterns. Also included is a
+                        4K TV with Google
+                        Chromecast support.</p> <br>
+                    <p>Price: $150.00/night</p>
+                    <a
+                        href="customer__payment_info.php?type=Standard"><bu
+                            tton type="submit">Book now!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div>
+    <section class="centered-content">
+        <div class="grid">
+            <div class="row-grid-2">
+                <div>
+                    <p><span style="font-size:
+23"><b>Queen Room</b><br><br></span>
+                        With a beautiful view
+                        of the ocean, the Queen Room is great for nature
+                        lovers and young couples.
+                        With the inclusion of a coffee table and
+                        free artisanal coffee,
+                        every morning is a good morning in this room.</p>
+                    <br>
+                    <p>Price: $180.00/night</p>
+                    <a
+                        href="customer__payment_info.php?type=Queen"><butto
+                            n type="submit">Book now!</button></a>
+                </div>
+            </div>
+            <div class="row-grid-2">
+                <div>
+                    <img style="padding-bottom:
+10px" src="2.jpg" width="400" height="300"
+                         alt="John Smith"> <br>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div>
+    <section class="centered-content">
+        <div class="grid">
+            <div class="row-grid">
+                <div>
+                    <img style="padding-bottom:
+10px" src="3.jpg" width="400" height="300"
+                         alt="John Smith"> <br>
+                </div>
+            </div>
+            <div class="row-grid-2">
+                <div>
+                    <p><span style="font-size:
+23"><b>King Room</b><br><br></span>
+                        Though slightly smaller
+                        than the standard queen room, our King Room offers
+                        a premium, extra thick
+                        memory foam mattress, a balcony, free alcoholic
+                        beverages
+                        in the fridge, and the
+                        same artisanal coffee offered in our Queen
+                        offering!</p>
+                    <br>
+                    <p>Price: $210.00/night</p>
+                    <a
+                        href="customer__payment_info.php?type=King"><button
+                            type="submit">Book now!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+</div>
+<div>
+    <section class="centered-content">
+        <div class="grid">
+            <div class="row-grid-2">
+                <div>
+                    <p><span style="font-size:
+23"><b>Double Queen</b><br><br></span>
+                        For those people
+                        bringing their families to our resort, we recommend
+                        the
+                        Double Queen room. This
+                        room has two queen sized beds, a pullout couch (not
+                        pictured),
+                        and a game system
+                        loaded with family friendly offerings. Family
+                        vacations have never been
+                        this stress free!</p>
+                    <br>
+                    <p>Price: $230.00/night</p>
+                    <a
+                        href="customer__payment_info.php?type=double"><butt
+                            on type="submit">Book now!</button></a>
+                </div>
+            </div>
+            <div class="row-grid-2">
+                <div>
+                    <img style="padding-bottom:
+10px" src="4.jpg" width="400" height="300"
+                         alt="John Smith"> <br>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<div>
+    <section class="centered-content">
+        <div class="grid">
+            <div class="row-grid">
+                <div>
+                    <img style="padding-bottom:
+10px" src="5.jpg" width="400" height="300"
+                         alt="John Smith"> <br>
+                </div>
+            </div>
+            <div class="row-grid-2">
+                <div>
+                    <p><span style="font-size:
+23"><b>Penthouse</b><br><br></span>
+                        Reserved for those that
+                        spare no expense, the Penthouse Suite offers the
+                        same premium
+                        king sized mattress,
+                        free artisanal coffee, refridgerator with free
+                        alcoholic beverages,
+                        complementary room
+                        service up to $30, and an ultra-premium 4K TV.</p>
+                    <br>
+                    <p>Price: $350.00/night</p>
+                    <a
+                        href="customer__payment_info.php?type=Penthouse"><b
+                            utton type="submit">Book now!</button></a></form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+</div>
+<footer>
+    <div class="footer">
+        <br>
+        <p
+            class="address-contact">Address:<span
+                style="margin-left: 25px;"></span>
+            <a
+                href="https://www.google.com/maps/place/1+Normal+Av
+e,+Montclair,+NJ+07043/@40.8622763,-74.2001893,17z/
+data=!3m1!4b1!4m5!3m4!1s0x89c2ffc95861e30f:0xcb7e0e
+8383cbf5bf!8m2!3d40.8622763!4d-74.1980006?hl=en%22%
+3E">
+                1 Normal Ave<br><span
+                    style="margin-left: 95px;"></span>Montclair, NJ
+                07043</a><br>
+            Contact:<span style="margin-left:
+27px;"></span> 973-973-4000 <br>
+            <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="fbIcon.png"
+                     width="20" height="20" alt="FaceBook"></a> <span
+                style="margin-left:
+5px;"></span>
+            <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="igIcon.png"
+                     width="20" height="20" alt="Instagram"></a><span
+                style="margin-left:
+5px;"></span>
+            <a
+                href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                <img src="twitterIcon.png"
+                     width="20" height="20" alt="Twitter"></a>
+        </p>
+        <p class="copy-right">Copyright&#169
+            Python Resorts. All rights reserved.</p>
+    </div>
+</footer>
+</body>

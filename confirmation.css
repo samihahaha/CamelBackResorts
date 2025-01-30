@@ -1,0 +1,63 @@
+.booking-information {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+padding-bottom: 4em;
+}
+.input {
+display: flex;
+align-items: center;
+}
+.label {
+font-weight: bold;
+color: black;
+text-shadow: none;
+}
+a:link{
+color: white;
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+.value {
+margin-left: 8px;
+text-shadow: none;
+color: rgba(0, 0, 0, .8);
+}
+.more-booking-information {
+padding-left: 3em;
+background-color: white;
+}
+.more-input {
+display: flex;
+align-items: center;
+margin-bottom: 1em;
+}
+.more-label {
+width: 150px;
+text-shadow: none;
+color: black;
+font-weight: bold;
+}
+.more-value {
+margin-left: 10px;
+text-shadow: none;
+color: rgba(0, 0, 0, .8);
+}
+.main {
+padding: 30px;
+border-radius: 25px;
+border: 1px solid gray;
+background-color: white;
+margin: 0 2em;
+position: relative;
+}
+.logo {
+object-fit: cover;
+position: absolute;
+left: 70%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
