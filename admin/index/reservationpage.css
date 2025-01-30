@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+}
+html {
+    background-color: rgb(191,206,225);
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: lightgrey;
+}
+.active {
+    background-color: lightgrey;
+}
+.centered-row {
+    display: flex;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 0px 3px 6px black;
+}
+.left-row {
+    display: flex;
+    justify-content: left;
+    padding: 20px;
+    vertical-align: text-bottom;
+    text-shadow: 0 3px 6px black;
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.right-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.login{
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    text-shadow: 0px 3px 6px black;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+.banner
+{
+    background-image: url('hotel1.jpg');
+    background-repeat: repeat-x;
+    height: 615px;
+    opacity:0.5;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkslategrey;
+}
+.banner-title{
+    font-size: 80px;
+    top: 26%;
+    font-family: cursive;
+    position: relative;
+}
+.reservation-form
+{
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 10px;
+}
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.row-grid {
+    display: grid;
+    width: 500px;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: column;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.row-grid-2 {
+    display: grid;
+    width: 500px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    grid-auto-flow: column;
+    color: rgb(2, 2, 2);
+    font-size: 18px;
+}
+.footer {
+    position: flex;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    opacity: 75%;
+    text-shadow: 0 3px 6px black;
+    padding-bottom: 30px;
+}
+.copy-right{
+    position: relative;
+    text-align: center;
+    top: 20%;
+    font-size: 12px;
+}
+.address-contact{
+    position: relative;
+    text-align: left;
+    top: 15%;
+    left: 10%;
+    width: 500px;
+}
+/*We need some extra code to handle small tablets
+and mobile screens. The row-grid becomes a Flex
+container. */
+@media (max-width: 700px) {
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 15px;
+    }
+    .row-grid {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .row-grid > div {
+        width: 75%;
+        margin: 15px;
+    }
+}
